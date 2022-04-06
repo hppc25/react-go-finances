@@ -2,10 +2,10 @@ import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import totalImg from '../../assets/total.svg';
 
-import { Container } from "./styles";
+import *  as S from './styles';
 
 export const Summary = () => (
-  <Container>
+  <S.Container>
     <div>
       <header>
         <p>Income</p>
@@ -29,5 +29,5 @@ export const Summary = () => (
       </header>
       <strong>£700.00</strong>
     </div>
-  </Container>
+  </S.Container>
 );

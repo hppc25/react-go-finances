@@ -1,8 +1,11 @@
 import { Summary } from '../Summary';
-import { Container } from "./styles";
+import { TransactionsTable } from '../TransactionsTable';
+import *  as S from './styles';
+
 
 export const Dashboard = () => (
-  <Container>
+  <S.Container>
     <Summary />
-  </Container>
+    <TransactionsTable />
+  </S.Container>
 );
