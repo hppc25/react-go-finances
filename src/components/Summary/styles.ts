@@ -10,6 +10,7 @@ export const Container = styled.div`
     color: var(--text-title);
     background: var(--shape);
     border-radius: 0.25rem;
+    box-shadow: 0px 1.5rem 4rem rgba(0, 0, 0, 0.06);
     header {
       display: flex;
       align-items: center;
